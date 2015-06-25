@@ -23,8 +23,8 @@ ajout de :
  
  fichier ini de la version 1.3.3.1
  
- [config]
-force_hash = 0 <br/>
+[config]<br/>
+force_hash = 0<br/>
 modedebug = 1<br/>
 devtest = 1<br/>
 active_login = 1<br/>
@@ -35,11 +35,44 @@ login = " My Login "<br/>
 icolauncher = "data\ML.ico"<br/>
 passwordhas = "SHA1"<br/>
 dir = "download"<br/>
+dirtmp = ".\data\tmp"<br/>
+width = 710<br/>
+height = 400<br/>
+szfilenohash = 100000000<br/>
+has_file_ptc = "haval160,4"<br/>
+[progressbar]<br/>
+pgb_general_width = 630<br/>
+pgb_general_height = 24<br/>
+pgb_general_x = 44<br/>
+pgb_general_y = 312<br/>
+pgb_general_color_back = "0x17238C"<br/>
+pgb_general_color_forg = "0x1E2DB7"<br/>
+pgb_download_width = 630<br/>
+pgb_download_height = 24<br/>
+pgb_download_x = 44<br/>
+pgb_download_y = 312<br/>
+pgb_download_color_back = "0x8C3718"<br/>
+pgb_download_color_forg = "0xCD4717"<br/>
+pgb_install_width = 630<br/>
+pgb_install_height = 24<br/>
+pgb_install_x = 44<br/>
+pgb_install_y = 350<br/>
+pgb_install_color_back = "0x512025"<br/>
+pgb_install_color_forg = "0x983D46"<br/>
+text_x = 125<br/>
+text_y = 226<br/>
+text_h = 10<br/>
+text_c = 48<br/>
+text_default_color = "0xFFFFFF"<br/>
 [INFO]<br/>
 active_info = 1<br/>
-activeurl = 0<br/>
-urlinfo = "http://"<br/>
+activeurl = 1<br/>
+urlinfo = "https://www.youtube.com/embed/9RXsOMARKLE"<br/>
 name = "\data\info.html"<br/>
+width = 336<br/>
+height = 143<br/>
+x = 344<br/>
+y = 37<br/>
 [sound]<br/>
 mp3 = "data\O.Z.O.N._-_Cycle__2014_Remaster_.mp3"<br/>
 [IMGOPT]<br/>
@@ -66,4 +99,4 @@ downloadall = 0<br/>
 [exclusion]<br/>
 0 = "test.ini"<br/>
 [patch]<br/>
-0 = "test.ini;%pseudo%,%login%,%password%;.\"<br/>
+0 = "test.ini;%pseudo%,%login%,%password%;.\"
